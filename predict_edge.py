@@ -10,7 +10,7 @@ cheatsheet = cv2.imread('alfabetet.png')
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 predicted_letter = ''
 text = 'Please make a sign and press space'
-model = tf.keras.models.load_model('/Users/lukas/Documents/slutarbete2/kod/models/canny_64-64_128drop05_256_512_dense_64_1586770532.model')
+model = tf.keras.models.load_model('pretrained_models/canny_64-64_128drop05_256_512_dense_64_1586770532.model')
 spelled_letters = ''
 last_letter = ''
 
